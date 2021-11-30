@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tests": "node_modules\\.bin\\cypress run",
-    "cypress:runChrome": "cypress run --headless --browser chrome git  cypress/integration/*.js --config pageLoadTimeout=100000",
-    "cypress:runChromeHeadless": "cypress run --headless --browser chrome  cypress/integration/*.js --record --key 4bc50df7-5eee-4147-8eb3-ccea611c8d4b"
+    "cypress:runChrome": "cypress run --headless --browser chrome git  cypress/integration/*.spec.js --config pageLoadTimeout=100000",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome  cypress/integration/*.spec.js --record --key 4bc50df7-5eee-4147-8eb3-ccea611c8d4b"
   },
   "author": "",
   "license": "ISC",
