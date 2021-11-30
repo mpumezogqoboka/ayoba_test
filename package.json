@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:runChrome": "cypress run --browser chrome --spec cypress/integration/pom/*.spec.js"
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/integration/pom/*.spec.js",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/integration/pom/*.spec.js --record --key 4bc50df7-5eee-4147-8eb3-ccea611c8d4b"
   },
   "author": "",
   "license": "ISC",
